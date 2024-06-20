@@ -1,0 +1,30 @@
+.new_collections {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #fde1fd, #e1ffe1 60%);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.new_collections h1 {
+    color: #171717;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.new_collections hr {
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+    background: #252525;
+    margin: 0 auto 40px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
